@@ -289,6 +289,11 @@ header {
 	}
 }
 
+.description__title[_ngcontent-ng-c412045278] {
+	padding-top: 1px;
+	font-size: 20px;
+}
+
 .banner__content {
 	position: relative;
 	height: 100%;
@@ -313,12 +318,14 @@ header {
 				0 -1px rgb(80, 0, 0), -1px 1px rgb(80, 0, 0), 1px -1px rgb(80, 0, 0);
 			position: relative;
 			z-index: 0;
-			padding: 0 15px;
-			height: 38px;
+			min-height: 38px;
+			padding-block: 5px 15px;
 			line-height: 1.25;
 			font-weight: 600;
 			color: #f0a86c;
 			font-size: 20px;
+			padding-top: 1px;
+
 			&:before {
 				content: "";
 				position: absolute;
@@ -929,7 +936,6 @@ footer {
 		aspect-ratio: 1264 / 320;
 	}
 	.banner__content p:nth-child(1) {
-		padding: 0px;
 		font-size: 16px;
 	}
 	.banner__content p:nth-child(2) {
@@ -938,9 +944,15 @@ footer {
 	.banner__content a {
 		width: 387px;
 	}
+	.banner__content p:nth-child(1) {
+		padding: 4px 0 0;
+	}
 }
 
 @media (max-width: 1279px) {
+	.banner__content p:nth-child(1) {
+		padding: 2px 0 0;
+	}
 	.burger {
 		display: block;
 		width: 32px;
@@ -1012,9 +1024,7 @@ footer {
 	.banner {
 		aspect-ratio: 768 /278;
 	}
-	.banner__content p:nth-child(1) {
-		padding: 0 0 7px;
-	}
+
 	.banner__content p:nth-child(2) {
 		font-size: 32px;
 	}
@@ -1072,6 +1082,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+	.banner__content p:nth-child(1) {
+		padding: 5px 0 0;
+	}
 	.sidebar {
 		width: 100%;
 		left: -100%;
