@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1 48" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1" height="48" fill="#30180D"/>
+<g clip-path="url(#clip0_72337_397160)">
+<mask id="path-1-inside-1_72337_397160" fill="white">
+<path d="M-1 2H2V46H-1V2Z"/>
+</mask>
+<path d="M-1 2H2V46H-1V2Z" fill="#30180D"/>
+<path d="M-1 2V1H-2V2H-1ZM2 2H3V1H2V2ZM2 46V47H3V46H2ZM-1 46H-2V47H-1V46ZM-1 3H2V1H-1V3ZM1 2V46H3V2H1ZM2 45H-1V47H2V45ZM0 46V2H-2V46H0Z" fill="url(#paint0_linear_72337_397160)" fill-opacity="0.2" mask="url(#path-1-inside-1_72337_397160)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_72337_397160" x1="0.5" y1="2" x2="0.5" y2="46" gradientUnits="userSpaceOnUse">
+<stop offset="0.42" stop-color="#6B4128"/>
+<stop offset="0.72" stop-color="#8A4304"/>
+</linearGradient>
+<clipPath id="clip0_72337_397160">
+<rect width="1" height="44" fill="white" transform="translate(0 2)"/>
+</clipPath>
+</defs>
+</svg>
